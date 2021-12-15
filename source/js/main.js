@@ -673,6 +673,11 @@ document.addEventListener('DOMContentLoaded', function () {
       const publishDate = $runtimeCount.getAttribute('data-publishDate')
       $runtimeCount.innerText = btf.diffDate(publishDate) + ' ' + GLOBAL_CONFIG.runtime
     }
+    const $runtimeCountF = document.getElementById('runtimeshowF')
+    if ($runtimeCountF) {
+        const publishDateF = $runtimeCountF.getAttribute('data-publishDateF')
+        $runtimeCountF.innerText = btf.diffDate(publishDateF) + ' ' + GLOBAL_CONFIG.runtime
+    }
   }
 
   /**

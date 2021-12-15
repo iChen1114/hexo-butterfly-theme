@@ -1,6 +1,7 @@
 footer:
   framework: 框架
   theme: 主題
+  runtime: 努力存活
 
 copy:
   success: 複製成功
@@ -8,10 +9,10 @@ copy:
   noSupport: 瀏覽器不支援
 
 page:
-  articles: 文章總覽
-  tag: 標籤
-  category: 分類
-  archives: 歸檔
+  articles: articles
+  tag: tags
+  category: categories
+  archives: archives
 
 card_post_count: 條評論
 
